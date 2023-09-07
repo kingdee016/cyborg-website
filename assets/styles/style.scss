@@ -1,0 +1,2488 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color: white;
+    position: relative;
+    header{
+        width: 100%;
+        height: 100vh;
+        background-image: url('/assets/images/cyborg og.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: -4rem 0 0 0;
+        background-position-y: -10rem;
+        nav{
+            width: 100%;
+            height: 11%;
+            background-color: red;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 2px solid white;
+            position: fixed;
+            top: 0;
+            .para{
+                font-size: 1.5rem;
+            }
+            .para2{
+                list-style: none;
+                width: 25%;
+                .para3{
+                    display: flex;
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        #para4{
+            width: 50%;
+            height: 100%;
+            margin: 8rem auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            #name{
+                font-size: 8rem;
+                font-weight: 700;
+                color: red;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            #para5{
+                font-size: 2.2rem;
+                margin: .3rem 0 0 0;
+                font-weight: 900;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+                width: 76%;
+                height: 25%;
+                text-align: center;
+                color: rgb(253, 40, 40);
+                border-bottom: 10px solid black;
+            }
+        }
+    }
+    main{
+        .about-us{
+            width: 100%;
+            height: 60vh;
+            .para6{
+                width: 30%;
+                height: 20%;
+                font-size: 2.5rem;
+                margin: auto;
+                padding: 2rem 0 0 0;
+                h1{
+                    text-align: center;
+                }
+            }
+            .text{
+                width: 50%;
+                height: 50%;
+                margin: 5rem auto;
+                font-size: 2rem;
+                display: flex;
+                align-items: center;
+                border-top: 5px solid grey;
+                border-bottom: 5px solid grey;
+                border-radius: 2rem;
+                p{
+                    text-align: center;
+                    font-weight: 500;
+                }
+            }
+        }
+        .top{
+            width: 100%;
+            height: 80vh;
+            .text{
+                width: 30%;
+                height: 20%;
+                font-size: 2.5rem;
+                margin: auto;
+                padding: 2rem 0 0 0;
+                h1{
+                   text-align: center;
+                }
+            }
+            .para-{
+                width: 90%;
+                height: 70%;
+                background-color: red;
+                margin: 2rem auto;
+                font-size: 2rem;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-top: 5px solid grey;
+                border-bottom: 5px solid grey;
+                border-radius: 2rem;
+                box-shadow: 1rem .3rem 1.5rem;
+                .text{
+                    width: 60%;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    height: 90%;
+                    margin: 0;
+                }
+                .picture{
+                    width: 30%;
+                    height: 90%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 2rem;
+                    }
+                }
+            }
+        }
+        .down{
+            width: 100%;
+            height: 60vh;
+            .para-{
+                width: 90%;
+                height: 100%;
+                background-color: white;
+                color: red;
+                margin: auto;
+                font-size: 2rem;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-top: 5px solid grey;
+                border-bottom: 5px solid grey;
+                border-radius: 2rem;
+                box-shadow: 1rem .3rem 1.5rem;
+                .picture{
+                    width: 40%;
+                    height: 90%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 2rem;
+                    }
+                }
+                .text{
+                    width: 50%;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    height: 90%;
+                    margin: 0;
+                }
+            }
+        }
+    }
+    footer{
+        #class{
+            height: 7vh;
+            h1{
+                text-align: center;
+                font-size: 2.7rem;
+            }
+        }
+        .hero{
+            background-color: white;
+            color: black;
+            font-weight: 900;
+            font-size: 1.6rem;
+            text-align: center;
+            .hero3{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        .class2{
+            font-size: 1.6rem;
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width:1087px){
+    body{
+        background-color: black;
+        color: white;
+        position: relative;
+        header{
+            width: 100%;
+            height: 100vh;
+            background-image: url('/assets/images/cyborg og.jpg');            background-repeat: no-repeat;
+            background-size: cover;
+            margin: -4rem 0 0 0;
+            background-position-y: -10rem;
+            nav{
+                width: 100%;
+                height: 11%;
+                background-color: red;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 2px solid white;
+                position: fixed;
+                top: 0;
+                .para{
+                    font-size: 1.5rem;
+                }
+                .para2{
+                    list-style: none;
+                    width: 30%;
+                    .para3{
+                        display: flex;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            #para4{
+                width: 50%;
+                height: 90%;
+                margin: 8rem auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                #name{
+                    font-size: 8rem;
+                    font-weight: 700;
+                    color: red;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                #para5{
+                    font-size: 2.2rem;
+                    margin: .3rem 0 0 0;
+                    font-weight: 900;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-align: center;
+                    width: 76%;
+                    height: 25%;
+                    text-align: center;
+                    color: rgb(253, 40, 40);
+                    border-bottom: 10px solid black;
+                }
+            }
+        }
+        main{
+            .about-us{
+                width: 100%;
+                height: 60vh;
+                margin: -12rem 0 0 0 ;
+                .para6{
+                    width: 30%;
+                    height: 20%;
+                    font-size: 2.5rem;
+                    margin: auto;
+                    padding: 4rem 0 0 0;
+                    h1{
+                        text-align: center;
+                    }
+                }
+                .text{
+                    width: 50%;
+                    height: 50%;
+                    margin: 5rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    p{
+                        text-align: center;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .top{
+                width: 100%;
+                height: 80vh;
+                .text{
+                    width: 30%;
+                    height: 20%;
+                    font-size: 2.5rem;
+                    margin: auto;
+                    padding: 2rem 0 0 0;
+                    h1{
+                       text-align: center;
+                    }
+                }
+                .para-{
+                    width: 90%;
+                    height: 70%;
+                    background-color: red;
+                    margin: 2rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .text{
+                        width: 60%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        height: 90%;
+                        margin: 0;
+                    }
+                    .picture{
+                        width: 30%;
+                        height: 90%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                }
+            }
+            .down{
+                width: 100%;
+                height: 60vh;
+                .para-{
+                    width: 90%;
+                    height: 100%;
+                    background-color: white;
+                    color: red;
+                    margin: auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .picture{
+                        width: 40%;
+                        height: 90%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                    .text{
+                        width: 50%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        height: 90%;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        footer{
+            #class{
+                height: 7vh;
+                h1{
+                    text-align: center;
+                    font-size: 2.7rem;
+                }
+            }
+            .hero{
+                background-color: white;
+                color: black;
+                font-weight: 900;
+                font-size: 1.6rem;
+                text-align: center;
+                .hero3{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            .class2{
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width:1022px){
+    body{
+        background-color: black;
+        color: white;
+        position: relative;
+        header{
+            width: 100%;
+            height: 100vh;
+            background-image: url('/assets/images/cyborg og.jpg');            
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: -4rem 0 0 0;
+            background-position-y: -10rem;
+            nav{
+                width: 100%;
+                height: 11%;
+                background-color: red;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 2px solid white;
+                position: fixed;
+                top: 0;
+                .para{
+                    font-size: 1.5rem;
+                }
+                .para2{
+                    list-style: none;
+                    width: 30%;
+                    .para3{
+                        display: flex;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            #para4{
+                width: 50%;
+                height: 90%;
+                margin: 8rem auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                #name{
+                    font-size: 8rem;
+                    font-weight: 700;
+                    color: red;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                #para5{
+                    font-size: 2.2rem;
+                    margin: .3rem 0 0 0;
+                    font-weight: 900;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-align: center;
+                    width: 86%;
+                    height: 25%;
+                    text-align: center;
+                    color: rgb(253, 40, 40);
+                    border-bottom: 10px solid black;
+                }
+            }
+        }
+        main{
+            .about-us{
+                width: 100%;
+                height: 60vh;
+                margin: -12rem 0 0 0 ;
+                .para6{
+                    width: 30%;
+                    height: 20%;
+                    font-size: 2.5rem;
+                    margin: auto;
+                    padding: 4rem 0 0 0;
+                    h1{
+                        text-align: center;
+                    }
+                }
+                .text{
+                    width: 50%;
+                    height: 50%;
+                    margin: 5rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    p{
+                        text-align: center;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .top{
+                width: 100%;
+                height: 80vh;
+                .text{
+                    width: 30%;
+                    height: 20%;
+                    font-size: 2.2rem;
+                    margin: auto;
+                    padding: 2rem 0 0 0;
+                    h1{
+                       text-align: center;
+                    }
+                }
+                .para-{
+                    width: 90%;
+                    height: 70%;
+                    background-color: red;
+                    margin: 2rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .text{
+                        width: 60%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        height: 90%;
+                        margin: 0;
+                    }
+                    .picture{
+                        width: 30%;
+                        height: 90%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                }
+            }
+            .down{
+                width: 100%;
+                height: 60vh;
+                .para-{
+                    width: 90%;
+                    height: 100%;
+                    background-color: white;
+                    color: red;
+                    margin: auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .picture{
+                        width: 40%;
+                        height: 90%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                    .text{
+                        width: 50%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        height: 90%;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        footer{
+            #class{
+                height: 7vh;
+                h1{
+                    text-align: center;
+                    font-size: 2.7rem;
+                }
+            }
+            .hero{
+                background-color: white;
+                color: black;
+                font-weight: 900;
+                font-size: 1.6rem;
+                text-align: center;
+                .hero3{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            .class2{
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width:971px){
+    body{
+        background-color: black;
+        color: white;
+        position: relative;
+        header{
+            width: 100%;
+            height: 100vh;
+            background-image: url('/assets/images/cyborg og.jpg');            
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: -4rem 0 0 0;
+            background-position-y: -10rem;
+            nav{
+                width: 100%;
+                height: 11%;
+                background-color: red;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 2px solid white;
+                position: fixed;
+                top: 0;
+                .para{
+                    font-size: 1.5rem;
+                }
+                .para2{
+                    list-style: none;
+                    width: 30%;
+                    .para3{
+                        display: flex;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            #para4{
+                width: 50%;
+                height: 90%;
+                margin: 8rem auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                #name{
+                    font-size: 8rem;
+                    font-weight: 700;
+                    color: red;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                #para5{
+                    font-size: 2.2rem;
+                    margin: .3rem 0 0 0;
+                    font-weight: 900;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-align: center;
+                    width: 86%;
+                    height: 30%;
+                    text-align: center;
+                    color: rgb(253, 40, 40);
+                    border-bottom: 10px solid black;
+                }
+            }
+        }
+        main{
+            .about-us{
+                width: 100%;
+                height: 60vh;
+                margin: -12rem 0 0 0 ;
+                .para6{
+                    width: 30%;
+                    height: 20%;
+                    font-size: 2.5rem;
+                    margin: auto;
+                    padding: 4rem 0 0 0;
+                    h1{
+                        text-align: center;
+                    }
+                }
+                .text{
+                    width: 60%;
+                    height: 60%;
+                    margin: 5rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    p{
+                        text-align: center;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .top{
+                width: 100%;
+                height: 80vh;
+                .text{
+                    width: 30%;
+                    height: 20%;
+                    font-size: 2.2rem;
+                    margin: auto;
+                    padding: 2rem 0 0 0;
+                    h1{
+                       text-align: center;
+                    }
+                }
+                .para-{
+                    width: 90%;
+                    height: 70%;
+                    background-color: red;
+                    margin: 2rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .text{
+                        width: 60%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        height: 90%;
+                        margin: 0;
+                    }
+                    .picture{
+                        width: 30%;
+                        height: 90%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                }
+            }
+            .down{
+                width: 100%;
+                height: 60vh;
+                .para-{
+                    width: 90%;
+                    height: 100%;
+                    background-color: white;
+                    color: red;
+                    margin: auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .picture{
+                        width: 40%;
+                        height: 90%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                    .text{
+                        width: 50%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        height: 90%;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        footer{
+            #class{
+                height: 7vh;
+                h1{
+                    text-align: center;
+                    font-size: 2.7rem;
+                }
+            }
+            .hero{
+                background-color: white;
+                color: black;
+                font-weight: 900;
+                font-size: 1.6rem;
+                text-align: center;
+                .hero3{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            .class2{
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width:899px){
+    body{
+        background-color: black;
+        color: white;
+        position: relative;
+        header{
+            width: 100%;
+            height: 100vh;
+            background-image: url('/assets/images/cyborg og.jpg');           
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: -4rem 0 0 0;
+            background-position-y: -10rem;
+            nav{
+                width: 100%;
+                height: 11%;
+                background-color: red;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 2px solid white;
+                position: fixed;
+                top: 0;
+                .para{
+                    font-size: 1.5rem;
+                }
+                .para2{
+                    list-style: none;
+                    width: 30%;
+                    .para3{
+                        display: flex;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            #para4{
+                width: 50%;
+                height: 90%;
+                margin: 8rem auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                #name{
+                    font-size: 7rem;
+                    font-weight: 700;
+                    color: red;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                #para5{
+                    font-size: 2.2rem;
+                    margin: .3rem 0 0 0;
+                    font-weight: 900;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-align: center;
+                    width: 86%;
+                    height: 30%;
+                    text-align: center;
+                    color: rgb(253, 40, 40);
+                    border-bottom: 10px solid black;
+                }
+            }
+        }
+        main{
+            .about-us{
+                width: 100%;
+                height: 60vh;
+                margin: -12rem 0 0 0 ;
+                .para6{
+                    width: 30%;
+                    height: 20%;
+                    font-size: 2.5rem;
+                    margin: auto;
+                    padding: 4rem 0 0 0;
+                    h1{
+                        text-align: center;
+                    }
+                }
+                .text{
+                    width: 60%;
+                    height: 60%;
+                    margin: 5rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    p{
+                        text-align: center;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .top{
+                width: 100%;
+                height: 80vh;
+                .text{
+                    width: 30%;
+                    height: 20%;
+                    font-size: 2rem;
+                    margin: auto;
+                    padding: 2rem 0 0 0;
+                    h1{
+                       text-align: center;
+                    }
+                }
+                .para-{
+                    width: 90%;
+                    height: 70%;
+                    background-color: red;
+                    margin: 2rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .text{
+                        width: 60%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        height: 90%;
+                        margin: 0;
+                    }
+                    .picture{
+                        width: 30%;
+                        height: 90%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                }
+            }
+            .down{
+                width: 100%;
+                height: 60vh;
+                .para-{
+                    width: 90%;
+                    height: 100%;
+                    background-color: white;
+                    color: red;
+                    margin: auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .picture{
+                        width: 40%;
+                        height: 90%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                    .text{
+                        width: 50%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        height: 90%;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        footer{
+            #class{
+                height: 7vh;
+                h1{
+                    text-align: center;
+                    font-size: 2.7rem;
+                }
+            }
+            .hero{
+                background-color: white;
+                color: black;
+                font-weight: 900;
+                font-size: 1.6rem;
+                text-align: center;
+                .hero3{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            .class2{
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width:817px){
+    body{
+        background-color: black;
+        color: white;
+        position: relative;
+        header{
+            width: 100%;
+            height: 100vh;
+            background-image: url('/assets/images/cyborg og.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: -4rem 0 0 0;
+            background-position-y: -10rem;
+            nav{
+                width: 100%;
+                height: 11%;
+                background-color: red;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 2px solid white;
+                position: fixed;
+                top: 0;
+                .para{
+                    font-size: 1.5rem;
+                }
+                .para2{
+                    list-style: none;
+                    width: 40%;
+                    .para3{
+                        display: flex;
+                        font-size: 1rem;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            #para4{
+                width: 50%;
+                height: 85%;
+                margin: 8rem auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                #name{
+                    font-size: 7rem;
+                    font-weight: 700;
+                    color: red;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                #para5{
+                    font-size: 2.2rem;
+                    margin: .3rem 0 0 0;
+                    font-weight: 900;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-align: center;
+                    width: 90%;
+                    height: 36%;
+                    text-align: center;
+                    color: rgb(253, 40, 40);
+                    border-bottom: 10px solid black;
+                }
+            }
+        }
+        main{
+            .about-us{
+                width: 100%;
+                height: 60vh;
+                margin: -12rem 0 0 0 ;
+                .para6{
+                    width: 30%;
+                    height: 20%;
+                    font-size: 2.1rem;
+                    margin: auto;
+                    padding: 4rem 0 0 0;
+                    h1{
+                        text-align: center;
+                    }
+                }
+                .text{
+                    width: 60%;
+                    height: 60%;
+                    margin: 5rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    p{
+                        text-align: center;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .top{
+                width: 100%;
+                height: 80vh;
+                .text{
+                    width: 30%;
+                    height: 20%;
+                    font-size: 1.8rem;
+                    margin: auto;
+                    padding: 4rem 0 0 0;
+                    h1{
+                       text-align: center;
+                    }
+                }
+                .para-{
+                    width: 90%;
+                    height: 60%;
+                    background-color: red;
+                    margin: 2rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .text{
+                        width: 50%;
+                        font-size: 1.9rem;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        height: 80%;
+                        margin: 0;
+                    }
+                    .picture{
+                        width: 40%;
+                        height: 90%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                }
+            }
+            .down{
+                width: 100%;
+                height: 60vh;
+                .para-{
+                    width: 90%;
+                    height: 80%;
+                    background-color: white;
+                    color: red;
+                    margin: auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .picture{
+                        width: 50%;
+                        height: 90%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                    .text{
+                        width: 40%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        height: 90%;
+                        margin: 0;
+                        font-size: 1.9rem;
+                    }
+                }
+            }
+        }
+        footer{
+            #class{
+                height: 7vh;
+                h1{
+                    text-align: center;
+                    font-size: 2.7rem;
+                }
+            }
+            .hero{
+                background-color: white;
+                color: black;
+                font-weight: 900;
+                font-size: 1.6rem;
+                text-align: center;
+                .hero3{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            .class2{
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width:736px){
+    body{
+        background-color: black;
+        color: white;
+        position: relative;
+        header{
+            width: 100%;
+            height: 100vh;
+            background-image: url('/assets/images/cyborg og.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: -4rem 0 0 0;
+            background-position-y: -10rem;
+            nav{
+                width: 100%;
+                height: 11%;
+                background-color: red;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 2px solid white;
+                position: fixed;
+                top: 0;
+                .para{
+                    font-size: 1.5rem;
+                }
+                .para2{
+                    list-style: none;
+                    width: 40%;
+                    .para3{
+                        display: flex;
+                        font-size: 1rem;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            #para4{
+                width: 50%;
+                height: 85%;
+                margin: 8rem auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                #name{
+                    font-size: 7rem;
+                    font-weight: 700;
+                    color: red;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                #para5{
+                    font-size: 2.2rem;
+                    margin: .3rem 0 0 0;
+                    font-weight: 900;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-align: center;
+                    width: 90%;
+                    height: 40%;
+                    text-align: center;
+                    color: rgb(253, 40, 40);
+                    border-bottom: 10px solid black;
+                }
+            }
+        }
+        main{
+            .about-us{
+                width: 100%;
+                height: 60vh;
+                margin: -12rem 0 0 0 ;
+                .para6{
+                    width: 30%;
+                    height: 20%;
+                    font-size: 2.1rem;
+                    margin: auto;
+                    padding: 4rem 0 0 0;
+                    h1{
+                        text-align: center;
+                    }
+                }
+                .text{
+                    width: 70%;
+                    height: 60%;
+                    margin: 5rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    p{
+                        text-align: center;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .top{
+                width: 100%;
+                height: 80vh;
+                .text{
+                    width: 50%;
+                    height: 20%;
+                    font-size: 1.8rem;
+                    margin: auto;
+                    padding: 4rem 0 0 0;
+                    h1{
+                       text-align: center;
+                    }
+                }
+                .para-{
+                    width: 90%;
+                    height: 60%;
+                    background-color: red;
+                    margin: 2rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .text{
+                        width: 50%;
+                        font-size: 1.6rem;
+                        text-align: center;
+                        display: flex;
+                        height: 80%;
+                        margin: 0 0 2rem 0;
+                    }
+                    .picture{
+                        width: 40%;
+                        height: 90%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                }
+            }
+            .down{
+                width: 100%;
+                height: 60vh;
+                .para-{
+                    width: 90%;
+                    height: 80%;
+                    background-color: white;
+                    color: red;
+                    margin: auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .picture{
+                        width: 50%;
+                        height: 90%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                    .text{
+                        width: 40%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        font-size: 1.7rem;
+                        height: 90%;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        footer{
+            #class{
+                height: 7vh;
+                h1{
+                    text-align: center;
+                    font-size: 2.7rem;
+                }
+            }
+            .hero{
+                background-color: white;
+                color: black;
+                font-weight: 900;
+                font-size: 1.6rem;
+                text-align: center;
+                .hero3{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            .class2{
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width:648px){
+    body{
+        background-color: black;
+        color: white;
+        position: relative;
+        header{
+            width: 100%;
+            height: 100vh;
+            background-image: url('/assets/images/cyborg og.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: -4rem 0 0 0;
+            background-position-y: -10rem;
+            background-position-x: -10rem;
+            nav{
+                width: 100%;
+                height: 11%;
+                background-color: red;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 2px solid white;
+                position: fixed;
+                top: 0;
+                .para{
+                    font-size: 1.5rem;
+                }
+                .para2{
+                    list-style: none;
+                    width: 40%;
+                    .para3{
+                        display: flex;
+                        font-size: 1rem;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            #para4{
+                width: 60%;
+                height: 85%;
+                margin: 8rem auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                #name{
+                    font-size: 5rem;
+                    font-weight: 700;
+                    color: red;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                #para5{
+                    font-size: 2.2rem;
+                    margin: .3rem 0 0 0;
+                    font-weight: 900;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-align: center;
+                    width: 100%;
+                    height: 40%;
+                    text-align: center;
+                    color: rgb(253, 40, 40);
+                    border-bottom: 10px solid black;
+                }
+            }
+        }
+        main{
+            .about-us{
+                width: 100%;
+                height: 60vh;
+                margin: -12rem 0 0 0 ;
+                .para6{
+                    width: 50%;
+                    height: 20%;
+                    font-size: 1.8rem;
+                    margin: auto;
+                    padding: 4rem 0 0 0;
+                    h1{
+                        text-align: center;
+                    }
+                }
+                .text{
+                    width: 80%;
+                    height: 60%;
+                    margin: 5rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    p{
+                        text-align: center;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .top{
+                width: 100%;
+                height: 80vh;
+                .text{
+                    width: 50%;
+                    height: 20%;
+                    font-size: 1.8rem;
+                    margin: auto;
+                    padding: 4rem 0 0 0;
+                    h1{
+                       text-align: center;
+                    }
+                }
+                .para-{
+                    width: 90%;
+                    height: 60%;
+                    background-color: red;
+                    margin: 2rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .text{
+                        width: 50%;
+                        font-size: 1.6rem;
+                        text-align: center;
+                        display: flex;
+                        height: 80%;
+                        margin: 0 0 2rem 0;
+                    }
+                    .picture{
+                        width: 40%;
+                        height: 80%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                }
+            }
+            .down{
+                width: 100%;
+                height: 60vh;
+                .para-{
+                    width: 90%;
+                    height: 80%;
+                    background-color: white;
+                    color: red;
+                    margin: auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .picture{
+                        width: 54%;
+                        height: 80%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                    .text{
+                        width: 50%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        font-size: 1.7rem;
+                        height: 90%;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        footer{
+            #class{
+                height: 7vh;
+                h1{
+                    text-align: center;
+                    font-size: 2.7rem;
+                }
+            }
+            .hero{
+                background-color: white;
+                color: black;
+                font-weight: 900;
+                font-size: 1.6rem;
+                text-align: center;
+                .hero3{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            .class2{
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width:509px){
+    body{
+        background-color: black;
+        color: white;
+        position: relative;
+        header{
+            width: 100%;
+            height: 80vh;
+            background-image: url('/assets/images/cyborg og.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: -4rem 0 0 0;
+            background-position-y: -10rem;
+            background-position-x: -10rem;
+            nav{
+                width: 100%;
+                height: 11%;
+                background-color: red;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 2px solid white;
+                position: fixed;
+                top: 0;
+                .para{
+                    font-size: 1.1rem;
+                }
+                .para2{
+                    list-style: none;
+                    width: 50%;
+                    .para3{
+                        display: flex;
+                        font-size: 1rem;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            #para4{
+                width: 70%;
+                height: 85%;
+                margin: 8rem auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                #name{
+                    font-size: 4rem;
+                    font-weight: 700;
+                    color: red;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                #para5{
+                    font-size: 2rem;
+                    margin: .3rem 0 0 0;
+                    font-weight: 900;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-align: center;
+                    width: 100%;
+                    height: 40%;
+                    text-align: center;
+                    color: rgb(253, 40, 40);
+                    border-bottom: 10px solid black;
+                }
+            }
+        }
+        main{
+            .about-us{
+                width: 100%;
+                height: 60vh;
+                margin: -12rem 0 0 0 ;
+                .para6{
+                    width: 70%;
+                    height: 20%;
+                    font-size: 1.8rem;
+                    margin: auto;
+                    padding: 6rem 0 0 0;
+                    h1{
+                        text-align: center;
+                    }
+                }
+                .text{
+                    width: 80%;
+                    height: 70%;
+                    margin: 5rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    p{
+                        text-align: center;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .top{
+                width: 100%;
+                height: 80vh;
+                .text{
+                    width: 70%;
+                    height: 20%;
+                    font-size: 1.8rem;
+                    margin: auto;
+                    padding: 4rem 0 0 0;
+                    h1{
+                       text-align: center;
+                    }
+                }
+                .para-{
+                    width: 90%;
+                    height: 60%;
+                    background-color: red;
+                    margin: 2rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .text{
+                        width: 50%;
+                        font-size: 1.5rem;
+                        text-align: center;
+                        display: flex;
+                        height: 80%;
+                        margin: 0 0 2rem 0;
+                    }
+                    .picture{
+                        width: 40%;
+                        height: 80%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                }
+            }
+            .down{
+                width: 100%;
+                height: 60vh;
+                .para-{
+                    width: 90%;
+                    height: 80%;
+                    background-color: white;
+                    color: red;
+                    margin: auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .picture{
+                        width: 54%;
+                        height: 80%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                    .text{
+                        width: 50%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        font-size: 1.4rem;
+                        height: 90%;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        footer{
+            #class{
+                height: 7vh;
+                h1{
+                    text-align: center;
+                    font-size: 2.7rem;
+                }
+            }
+            .hero{
+                background-color: white;
+                color: black;
+                font-weight: 900;
+                font-size: 1.6rem;
+                text-align: center;
+                .hero3{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            .class2{
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width:407px){
+    body{
+        background-color: black;
+        color: white;
+        position: relative;
+        header{
+            width: 100%;
+            height: 80vh;
+            background-image: url('/assets/images/cyborg og.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: -4rem 0 0 0;
+            background-position-y: -10rem;
+            background-position-x: -10rem;
+            nav{
+                width: 100%;
+                height: 11%;
+                background-color: red;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 2px solid white;
+                position: fixed;
+                top: 0;
+                .para{
+                    font-size: 1.1rem;
+                }
+                .para2{
+                    list-style: none;
+                    width: 60%;
+                    .para3{
+                        display: flex;
+                        font-size: 1rem;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            #para4{
+                width: 70%;
+                height: 85%;
+                margin: 8rem auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                #name{
+                    font-size: 4rem;
+                    font-weight: 700;
+                    color: red;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                #para5{
+                    font-size: 1.8rem;
+                    margin: .3rem 0 0 0;
+                    font-weight: 900;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-align: center;
+                    width: 100%;
+                    height: 45%;
+                    text-align: center;
+                    color: rgb(253, 40, 40);
+                    border-bottom: 10px solid black;
+                }
+            }
+        }
+        main{
+            .about-us{
+                width: 100%;
+                height: 70vh;
+                margin: -12rem 0 0 0 ;
+                .para6{
+                    width: 70%;
+                    height: 20%;
+                    font-size: 1.8rem;
+                    margin: auto;
+                    padding: 6rem 0 0 0;
+                    h1{
+                        text-align: center;
+                    }
+                }
+                .text{
+                    width: 80%;
+                    height: 70%;
+                    margin: 5rem auto;
+                    font-size: 1.8rem;
+                    display: flex;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    p{
+                        text-align: center;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .top{
+                width: 100%;
+                height: 80vh;
+                .text{
+                    width: 70%;
+                    height: 20%;
+                    font-size: 1.6rem;
+                    margin: auto;
+                    padding: 4rem 0 0 0;
+                    h1{
+                       text-align: center;
+                    }
+                }
+                .para-{
+                    width: 90%;
+                    height: 50%;
+                    background-color: red;
+                    margin: 2rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .text{
+                        width: 50%;
+                        font-size: 1.2rem;
+                        text-align: center;
+                        display: flex;
+                        height: 80%;
+                        margin: 0 0 2rem 0;
+                    }
+                    .picture{
+                        width: 50%;
+                        height: 80%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                }
+            }
+            .down{
+                width: 100%;
+                height: 60vh;
+                .para-{
+                    width: 90%;
+                    height: 70%;
+                    background-color: white;
+                    color: red;
+                    margin: -7rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .picture{
+                        width: 64%;
+                        height: 80%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                    .text{
+                        width: 50%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        font-size: 1.1rem;
+                        height: 90%;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        footer{
+            #class{
+                height: 7vh;
+                h1{
+                    text-align: center;
+                    font-size: 2.7rem;
+                }
+            }
+            .hero{
+                background-color: white;
+                color: black;
+                font-weight: 900;
+                font-size: 1.6rem;
+                text-align: center;
+                .hero3{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            .class2{
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width:348px){
+    body{
+        background-color: black;
+        color: white;
+        position: relative;
+        header{
+            width: 100%;
+            height: 80vh;
+            background-image: url('/assets/images/cyborg og.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: -4rem 0 0 0;
+            background-position-y: -10rem;
+            background-position-x: -10rem;
+            nav{
+                width: 100%;
+                height: 11%;
+                background-color: red;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 2px solid white;
+                position: fixed;
+                top: 0;
+                .para{
+                    font-size: 1.1rem;
+                }
+                .para2{
+                    list-style: none;
+                    width: 60%;
+                    .para3{
+                        display: flex;
+                        font-size: 1rem;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            #para4{
+                width: 70%;
+                height: 85%;
+                margin: 8rem auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                #name{
+                    font-size: 3.5rem;
+                    font-weight: 700;
+                    color: red;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                #para5{
+                    font-size: 1.7rem;
+                    margin: .3rem 0 0 0;
+                    font-weight: 900;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-align: center;
+                    width: 100%;
+                    height: 45%;
+                    text-align: center;
+                    color: rgb(253, 40, 40);
+                    border-bottom: 10px solid black;
+                }
+            }
+        }
+        main{
+            .about-us{
+                width: 100%;
+                height: 70vh;
+                margin: -12rem 0 0 0 ;
+                .para6{
+                    width: 70%;
+                    height: 20%;
+                    font-size: 1.8rem;
+                    margin: auto;
+                    padding: 6rem 0 0 0;
+                    h1{
+                        text-align: center;
+                    }
+                }
+                .text{
+                    width: 80%;
+                    height: 70%;
+                    margin: 5rem auto;
+                    font-size: 1.8rem;
+                    display: flex;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    p{
+                        text-align: center;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .top{
+                width: 100%;
+                height: 80vh;
+                .text{
+                    width: 70%;
+                    height: 20%;
+                    font-size: 1.6rem;
+                    margin: auto;
+                    padding: 4rem 0 0 0;
+                    h1{
+                       text-align: center;
+                    }
+                }
+                .para-{
+                    width: 90%;
+                    height: 50%;
+                    background-color: red;
+                    margin: 2rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .text{
+                        width: 50%;
+                        font-size: 1.2rem;
+                        text-align: center;
+                        display: flex;
+                        height: 80%;
+                        margin: 0 0 2rem 0;
+                    }
+                    .picture{
+                        width: 50%;
+                        height: 80%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                }
+            }
+            .down{
+                width: 100%;
+                height: 60vh;
+                .para-{
+                    width: 90%;
+                    height: 70%;
+                    background-color: white;
+                    color: red;
+                    margin: -7rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .picture{
+                        width: 64%;
+                        height: 80%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                    .text{
+                        width: 50%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        font-size: 1.1rem;
+                        height: 90%;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        footer{
+            #class{
+                height: 7vh;
+                h1{
+                    text-align: center;
+                    font-size: 2.7rem;
+                }
+            }
+            .hero{
+                background-color: white;
+                color: black;
+                font-weight: 900;
+                font-size: 1.2rem;
+                text-align: center;
+                .hero3{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            .class2{
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width:339px){
+    body{
+        background-color: black;
+        color: white;
+        position: relative;
+        header{
+            width: 100%;
+            height: 80vh;
+            background-image: url('/assets/images/cyborg og.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: -4rem 0 0 0;
+            background-position-y: -10rem;
+            background-position-x: -10rem;
+            nav{
+                width: 100%;
+                height: 11%;
+                background-color: red;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 2px solid white;
+                position: fixed;
+                top: 0;
+                .para{
+                    font-size: 1.1rem;
+                }
+                .para2{
+                    list-style: none;
+                    width: 70%;
+                    .para3{
+                        display: flex;
+                        font-size: 1rem;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            #para4{
+                width: 70%;
+                height: 85%;
+                margin: 8rem auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                #name{
+                    font-size: 3.5rem;
+                    font-weight: 700;
+                    color: red;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                #para5{
+                    font-size: 1.7rem;
+                    margin: .3rem 0 0 0;
+                    font-weight: 900;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-align: center;
+                    width: 100%;
+                    height: 45%;
+                    text-align: center;
+                    color: rgb(253, 40, 40);
+                    border-bottom: 10px solid black;
+                }
+            }
+        }
+        main{
+            .about-us{
+                width: 100%;
+                height: 70vh;
+                margin: -12rem 0 0 0 ;
+                .para6{
+                    width: 70%;
+                    height: 20%;
+                    font-size: 1.8rem;
+                    margin: auto;
+                    padding: 6rem 0 0 0;
+                    h1{
+                        text-align: center;
+                    }
+                }
+                .text{
+                    width: 80%;
+                    height: 70%;
+                    margin: 5rem auto;
+                    font-size: 1.8rem;
+                    display: flex;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    p{
+                        text-align: center;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .top{
+                width: 100%;
+                height: 80vh;
+                .text{
+                    width: 70%;
+                    height: 20%;
+                    font-size: 1.6rem;
+                    margin: auto;
+                    padding: 4rem 0 0 0;
+                    h1{
+                       text-align: center;
+                    }
+                }
+                .para-{
+                    width: 90%;
+                    height: 40%;
+                    background-color: red;
+                    margin: 2rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .text{
+                        width: 50%;
+                        font-size: 1rem;
+                        text-align: center;
+                        display: flex;
+                        height: 80%;
+                        margin: 0 0 2rem 0;
+                    }
+                    .picture{
+                        width: 50%;
+                        height: 80%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                }
+            }
+            .down{
+                width: 100%;
+                height: 60vh;
+                .para-{
+                    width: 90%;
+                    height: 60%;
+                    background-color: white;
+                    color: red;
+                    margin: -10rem auto;
+                    font-size: 2rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    border-top: 5px solid grey;
+                    border-bottom: 5px solid grey;
+                    border-radius: 2rem;
+                    box-shadow: 1rem .3rem 1.5rem;
+                    .picture{
+                        width: 64%;
+                        height: 80%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 2rem;
+                        }
+                    }
+                    .text{
+                        width: 50%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        font-size: .9rem;
+                        height: 90%;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        footer{
+            #class{
+                height: 7vh;
+                h1{
+                    text-align: center;
+                    font-size: 2.7rem;
+                }
+            }
+            .hero{
+                background-color: white;
+                color: black;
+                font-weight: 900;
+                font-size: 1.2rem;
+                text-align: center;
+                .hero3{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            .class2{
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        }
+    }
+}
